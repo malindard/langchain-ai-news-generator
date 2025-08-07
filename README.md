@@ -4,7 +4,7 @@ Welcome to the **AI News Generator**, a multi-agent LLM app that turns your topi
 
 🎯 [Live Demo → langchain-ai-news-generator.streamlit.app](https://langchain-ai-news-generator.streamlit.app/)
 
----
+
 
 ## ✨ What It Does
 
@@ -16,7 +16,7 @@ This app is like your AI-powered editorial assistant. Given a topic, it:
 4. **Cites** sources using inline links and references
 5. **Stores** facts in Qdrant (for future reuse)
 
----
+
 
 ## 💻 How It Works
 
@@ -32,7 +32,7 @@ Each stage uses a separate LangChain chain, and you can pick your favorite model
 - 🤖 Gemma 3
 - (and more via OpenRouter)
 
----
+
 
 ## 🧰 Tech Stack
 
@@ -45,7 +45,7 @@ Each stage uses a separate LangChain chain, and you can pick your favorite model
 | Streamlit       | UI frontend                       |
 | ReportLab/docx  | PDF and DOCX export               |
 
----
+
 
 ## 🚀 Run It Locally
 
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
+
 
 ## 🔑 Environment Variables
 
@@ -70,7 +70,7 @@ QDRANT_API_KEY=your_qdrant_key
 QDRANT_URL=https://your-qdrant-endpoint
 ```
 
----
+
 
 ## 📁 Project Structure
 
@@ -87,7 +87,7 @@ QDRANT_URL=https://your-qdrant-endpoint
 └── README.md
 ```
 
----
+
 
 ## ⚠️ Heads-Up
 
@@ -95,13 +95,13 @@ QDRANT_URL=https://your-qdrant-endpoint
 - Free models on OpenRouter might occasionally hit **rate limits**
 - This is a **side project**, but it works surprisingly well
 
----
+
 
 ## 📄 License
 
 This project is open source under the **MIT License** — feel free to fork, build on top, or contribute back!
 
----
+
 
 **👉 Also check out:**  
 A same project built using **CrewAI** instead of **LangChain** — leaner agent execution, easier role setup, same great results, minus Streamlit. [Here](https://github.com/malindard/multi-agent-ai-blog-generator)
