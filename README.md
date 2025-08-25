@@ -106,4 +106,4 @@ This project is open source under the **MIT License** — feel free to fork, bui
 **👉 Also check out:**  
 A same project built using **CrewAI** instead of **LangChain** — leaner agent execution, easier role setup, same great results, minus Streamlit. [Here](https://github.com/malindard/multi-agent-ai-blog-generator)
 
-> “Let the agents do the research, you just pick the topic.”
+> *“Let the agents do the fact-checking. You just pick the topic.”*
